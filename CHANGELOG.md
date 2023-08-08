@@ -11,5 +11,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added auto releases with GH actions
 
 
-[unreleased]: https://github.com/baking-bad/tezos-market-sdk/compare/0.0.1...HEAD
-[0.0.1]: https://github.com/baking-bad/tezos-market-sdk/releases/tag/0.0.1
+[unreleased]: https://github.com/mismirnov/tezos-market-sdk/compare/0.0.1...HEAD
+[0.0.1]: https://github.com/mismirnov/tezos-market-sdk/releases/tag/0.0.1

@@ -9,7 +9,7 @@
   </p>
 
   <p>
-    <a href="https://github.com/baking-bad/tezos-market-sdk/issues"><img alt="Issues" src="https://img.shields.io/github/issues/baking-bad/tezos-market-sdk" /></a>
+    <a href="https://github.com/mismirnov/tezos-market-sdk/issues"><img alt="Issues" src="https://img.shields.io/github/issues/baking-bad/tezos-market-sdk" /></a>
     <a href="https://opensource.org/licenses/MIT"><img alt="License" src="https://img.shields.io/github/license/baking-bad/tezos-market-sdk" /></a>
   </p>
 </div>
@@ -33,13 +33,13 @@ You can install the UPM package via directly Git URL. To load a package from a G
 * Click the add **+** button in the status bar.
 * The options for adding packages appear.
 * Select Add package from git URL from the add menu. A text box and an Add button appear.
-* Enter the `https://github.com/baking-bad/tezos-market-sdk.git` Git URL in the text box and click Add.
+* Enter the `https://github.com/mismirnov/tezos-market-sdk.git` Git URL in the text box and click Add.
 * You may also install a specific package version by using the URL with the specified version.
-    * `https://github.com/baking-bad/tezos-market-sdk.git#X.Y.Z`
+    * `https://github.com/mismirnov/tezos-market-sdk.git#X.Y.Z`
     * Please note that the version `X.Y.Z` stated here is to be replaced with the version you would like to get.
-    * You can find all the available releases [here](https://github.com/baking-bad/tezos-market-sdk/releases).
+    * You can find all the available releases [here](https://github.com/mismirnov/tezos-market-sdk/releases).
     * The latest available release version
-      is [![Last Release](https://img.shields.io/github/v/release/baking-bad/tezos-market-sdk)](https://github.com/baking-bad/tezos-market-sdk/releases/latest)
+      is [![Last Release](https://img.shields.io/github/v/release/mismirnov/tezos-market-sdk)](https://github.com/baking-bad/tezos-market-sdk/releases/latest)
 
 For more information about what protocols Unity supports, see [Git URLs](https://docs.unity3d.com/Manual/upm-git.html).
 

@@ -23,13 +23,13 @@
     "sdk"
   ],
   "bugs": {
-    "url": "https://github.com/baking-bad/tezos-market-sdk/issues"
+    "url": "https://github.com/mismirnov/tezos-market-sdk/issues"
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:baking-bad/tezos-market-sdk.git"
+    "url": "ssh://git@github.com:mismirnov/tezos-market-sdk.git"
   },
-  "changelogUrl": "https://github.com/baking-bad/tezos-market-sdk/blob/main/CHANGELOG.md",
+  "changelogUrl": "https://github.com/mismirnov/tezos-market-sdk/blob/main/CHANGELOG.md",
   "author": {
     "name": "Baking Bad",
     "email" : "hello@bakingbad.dev",
