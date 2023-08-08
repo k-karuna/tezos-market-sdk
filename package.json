@@ -1,0 +1,39 @@
+{
+  "name": "com.bakingbad.tezos-market-sdk",
+  "version": "0.0.1",
+  "unity": "2021.3",
+  "displayName": "Tezos Market SDK",
+  "description": "Unity SDK to interact with marketplace on Tezos",
+  "samples": [
+    {
+      "displayName": "Tezos market sample",
+      "description": "Simple game to interact with marketplace on Tezos",
+      "path": "Samples~"
+    }
+  ],
+  "dependencies": {},
+  "keywords": [
+    "tezos",
+    "blockchain",
+    "marketplace",
+    "objkt",
+    "nft",
+    "game-dev",
+    "unity",
+    "sdk"
+  ],
+  "bugs": {
+    "url": "https://github.com/baking-bad/tezos-market-sdk/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:baking-bad/tezos-market-sdk.git"
+  },
+  "changelogUrl": "https://github.com/baking-bad/tezos-market-sdk/blob/main/CHANGELOG.md",
+  "author": {
+    "name": "Baking Bad",
+    "email" : "hello@bakingbad.dev",
+    "url": "https://bakingbad.dev"
+  },
+  "license": "MIT"
+}
