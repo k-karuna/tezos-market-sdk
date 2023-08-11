@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [0.0.4] - 2023-08-11
+### Added
+- .meta files;
+
+### Changed
+- GH actions test
+
+## [0.0.4] - 2023-08-11
 ### Changed
 - GH actions test
 
@@ -23,7 +30,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added auto releases with GH actions
 
 
-[unreleased]: https://github.com/mismirnov/tezos-market-sdk/compare/0.0.4...HEAD
+[unreleased]: https://github.com/mismirnov/tezos-market-sdk/compare/0.0.5...HEAD
+[0.0.5]: https://github.com/mismirnov/tezos-market-sdk/releases/tag/0.0.5
 [0.0.4]: https://github.com/mismirnov/tezos-market-sdk/releases/tag/0.0.4
 [0.0.3]: https://github.com/mismirnov/tezos-market-sdk/releases/tag/0.0.3
 [0.0.2]: https://github.com/mismirnov/tezos-market-sdk/releases/tag/0.0.2
