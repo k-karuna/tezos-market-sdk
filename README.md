@@ -25,6 +25,14 @@ developers with the ability to:
 The Tezos SDK supports Desktop, Android, iOS, and browsers. Beyond allowing game developers to interact with the Tezos
 blockchain, this SDK is a helpful resource for developing any Tezos decentralized application (dApp).
 
+### Install from unitypackage file
+
+You can install TezosMarketSdk via `.unitypackage` file. To load a package from a unitypackage file:
+
+* Go to [Releases](https://github.com/mismirnov/tezos-market-sdk/releases) page and download the latest `TezosMarketSdk.unitypackage`.
+* Open your project in Unity Editor.
+* Double-click the `TezosMarketSdk.unitypackage` file to import it into the current project.
+
 ### Install from a Git URL
 
 You can install the UPM package via directly Git URL. To load a package from a Git URL:
@@ -49,12 +57,12 @@ For more information about what protocols Unity supports, see [Git URLs](https:/
 * Adjust the [project manifest file](https://docs.unity3d.com/Manual/upm-manifestPrj.html) `manifest.json` in a text
   editor.
 * Ensure `https://registry.npmjs.org/` is part of `scopedRegistries`.
-    * Ensure `com.bakingbad` is part of `scopes`.
-    * Add `com.bakingbad.tezos-market-sdk` to the `dependencies`, stating the latest version.
+    * Ensure `com.baking-bad` is part of `scopes`.
+    * Add `com.baking-bad.tezos-market-sdk` to the `dependencies`, stating the latest version.
 
 A minimal example ends up looking like this. Please note that the version `X.Y.Z` stated here is to be replaced
-with [the latest released version](https://www.npmjs.com/package/com.bakingbad.tezos-market-sdk), which is
-currently [![NPM Package](https://img.shields.io/npm/v/com.bakingbad.tezos-market-sdk?color=blue)](https://www.npmjs.com/package/com.bakingbad.tezos-market-sdk).
+with [the latest released version](https://www.npmjs.com/package/com.baking-bad.tezos-market-sdk), which is
+currently [![NPM Package](https://img.shields.io/npm/v/com.baking-bad.tezos-market-sdk?color=blue)](https://www.npmjs.com/package/com.baking-bad.tezos-market-sdk).
 
 ```json
 {
@@ -63,12 +71,12 @@ currently [![NPM Package](https://img.shields.io/npm/v/com.bakingbad.tezos-marke
       "name": "npmjs",
       "url": "https://registry.npmjs.org/",
       "scopes": [
-        "com.bakingbad"
+        "com.baking-bad"
       ]
     }
   ],
   "dependencies": {
-    "com.bakingbad.tezos-market-sdk": "X.Y.Z",
+    "com.baking-bad.tezos-market-sdk": "X.Y.Z",
     ...
   }
 }
