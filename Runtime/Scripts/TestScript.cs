@@ -1,8 +1,9 @@
-namespace DefaultNamespace;
-
-public class TestScript
+namespace TezosMarketSDK.Scripts
 {
-    public void Test()
+    public class TestScript
     {
+        public void Test()
+        {
+        }
     }
 }

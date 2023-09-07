@@ -31,5 +31,8 @@
   },
   "changelogUrl": "https://github.com/mismirnov/tezos-market-sdk/blob/main/CHANGELOG.md",
   "author": "Baking Bad <hello@bakingbad.dev> (https://bakingbad.dev)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "com.trilitech.tezos-unity-sdk": "2.0.5"
+  }
 }

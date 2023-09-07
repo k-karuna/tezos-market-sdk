@@ -25,11 +25,31 @@ developers with the ability to:
 The Tezos SDK supports Desktop, Android, iOS, and browsers. Beyond allowing game developers to interact with the Tezos
 blockchain, this SDK is a helpful resource for developing any Tezos decentralized application (dApp).
 
+### Installation pre-requirements
+
+This package is depend on [tezos-unity-sdk](https://github.com/trilitech/tezos-unity-sdk) Unity package. To be able to work it is
+necessary to add `com.trilitech` scope to your project
+[manifest file](https://docs.unity3d.com/Manual/upm-manifestPrj.html). To do this, add `scopedRegistries` section as
+shown in the example below to your project `manifest.json` file.
+ 
+```json
+{
+  "scopedRegistries": [{
+    "name": "npmjs",
+    "url": "https://registry.npmjs.org/",
+    "scopes": [
+      "com.trilitech"
+    ]
+  }]
+}
+```
+
 ### Install from unitypackage file
 
 You can install TezosMarketSdk via `.unitypackage` file. To load a package from a unitypackage file:
 
-* Go to [Releases](https://github.com/mismirnov/tezos-market-sdk/releases) page and download the latest `TezosMarketSdk.unitypackage`.
+* Go to [Releases](https://github.com/mismirnov/tezos-market-sdk/releases) page and download the
+  latest `TezosMarketSdk.unitypackage`.
 * Open your project in Unity Editor.
 * Double-click the `TezosMarketSdk.unitypackage` file to import it into the current project.
 

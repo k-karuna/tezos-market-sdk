@@ -1,14 +1,16 @@
 {
-    "name": "com.baking-bad.tezos-market-sdk",
-    "rootNamespace": "TezosMarketSDK",
-    "references": [],
-    "includePlatforms": [],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": [],
-    "noEngineReferences": false
+  "name": "com.baking-bad.tezos-market-sdk",
+  "rootNamespace": "TezosMarketSDK",
+  "references": [
+    "com.trilitech.tezos-unity-sdk"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
 }
